@@ -53,14 +53,14 @@ const historicoInflacao = [
     { id: 52, ano: 2019, mes: 4, ipca: 0.57 },
     { id: 53, ano: 2019, mes: 5, ipca: 0.13 },
     { id: 54, ano: 2019, mes: 6, ipca: 0.01 },
-    { id: 54, ano: 2019, mes: 7, ipca: 0.19 },
-    { id: 55, ano: 2019, mes: 8, ipca: 0.11 },
-    { id: 56, ano: 2019, mes: 9, ipca: -0.04 },
-    { id: 57, ano: 2019, mes: 10, ipca: 0.1 },
-    { id: 58, ano: 2019, mes: 11, ipca: 0.51 },
-    { id: 59, ano: 2019, mes: 12, ipca: 1.15 },
-    { id: 60, ano: 2020, mes: 1, ipca: 0.21 },
-    { id: 61, ano: 2020, mes: 2, ipca: 0.25 },
+    { id: 55, ano: 2019, mes: 7, ipca: 0.19 },
+    { id: 56, ano: 2019, mes: 8, ipca: 0.11 },
+    { id: 57, ano: 2019, mes: 9, ipca: -0.04 },
+    { id: 58, ano: 2019, mes: 10, ipca: 0.1 },
+    { id: 59, ano: 2019, mes: 11, ipca: 0.51 },
+    { id: 60, ano: 2019, mes: 12, ipca: 1.15 },
+    { id: 61, ano: 2020, mes: 1, ipca: 0.21 },
+    { id: 62, ano: 2020, mes: 2, ipca: 0.25 },
     { id: 63, ano: 2020, mes: 3, ipca: 0.07 },
     { id: 64, ano: 2020, mes: 4, ipca: -0.31 },
     { id: 65, ano: 2020, mes: 5, ipca: -0.38 },
@@ -99,9 +99,7 @@ const historicoInflacao = [
     { id: 98, ano: 2023, mes: 2, ipca: 0.84 },
     { id: 99, ano: 2023, mes: 3, ipca: 0.71 },
     { id: 100, ano: 2023, mes: 4, ipca: 0.61 },
-    { id: 101, ano: 2023, mes: 5, ipca: 0.23 },
-  ];
-  
-  export default historicoInflacao;
+    { id: 101, ano: 2023, mes: 5, ipca: 0.23 }
+];
 
-
+export default historicoInflacao;
