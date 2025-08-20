@@ -92,12 +92,13 @@ app.get("/historicoIPCA/calculo", (req, res) => {
 //busca por todos caso ano não seja colocado, se colocado busca por ano
 app.get("/historicoIPCA", (req, res) => {
   const ano = parseInt(req.query.ano);
-  const resultado = ano ? listaFiltradaPorAno(ano) : listaInflacao();
 
   if (isNaN(ano) || ano < 2015 || ano > 2023) {
     res.status(400).send("Erro: o ano deve ser um número entre 2015 e 2023");
     return;
   }
+
+  const resultado = ano ? listaFiltradaPorAno(ano) : listaInflacao();
 
   res.json(resultado);
 });
