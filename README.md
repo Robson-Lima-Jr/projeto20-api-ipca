@@ -6,4 +6,4 @@
 
 - Node.js
 - Express
-- JavaScript
+- JavaScript.
